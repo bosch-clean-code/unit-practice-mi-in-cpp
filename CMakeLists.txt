@@ -22,7 +22,7 @@ add_executable(
   ConsoleLogger.cpp
   IOTCloudCommunicator.cpp
   SpeedMonitor.cpp
-  
+  main.cpp  
 )
 target_link_libraries(
   cleancode
