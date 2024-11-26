@@ -1,6 +1,12 @@
+#ifndef IOT_CLOUD_COMMUNICATOR_H
+#define IOT_CLOUD_COMMUNICATOR_H
+
 #include "ICloudCommunicator.h"
-class IOTCloudCommunicator:public ICloundCOmmunicator{
+
+class IOTCloudCommunicator:public ICloudCommunicator{
 
 public:
-    void pushMessage(string message);
+    int pushMessage(const string& message);
 };
+
+#endif
